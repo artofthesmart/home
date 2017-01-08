@@ -93,3 +93,9 @@ set nolist
 
 " This is for Jinja/TWIG templates
 au BufRead,BufNewFile *.twig set filetype=htmljinja
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                                   PATHOGEN
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+execute pathogen#infect()
+
