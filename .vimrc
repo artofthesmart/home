@@ -12,7 +12,7 @@ highlight ColorColumn ctermbg=234 guibg=#2c2d27
 "                                 Vim Behavior
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-setlocal spell spelllang=en_us
+setlocal spelllang=en_us
 set modeline                                              " allow per-file settings via modeline
 set secure                                                " disable unsafe commands in local .vimrc files
 set encoding=utf-8 fileencoding=utf-8 termencoding=utf-8  " saving and encoding
