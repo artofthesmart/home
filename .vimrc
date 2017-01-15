@@ -94,6 +94,9 @@ set nolist
 " This is for Jinja/TWIG templates
 au BufRead,BufNewFile *.twig set filetype=htmljinja
 
+autocmd FileType html,htmldjango,jinjahtml,eruby,mako,twig let b:closetag_html_style=1
+autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako,twig source ~/.vim/bundle/closetag/plugin/closetag.vim
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                   PATHOGEN
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
